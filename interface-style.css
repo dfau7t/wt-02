@@ -1,6 +1,21 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, rgb(0, 0, 0), #545454, rgb(115, 115, 115));
+    background-size: 600% 600%;
+    animation: gradientShift 30s ease infinite;
+  }
+  
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
   
   header {
@@ -31,17 +46,14 @@ body {
   }
   
   #home {
-    background-color: #1a1a1a;
     color: #fff;
   }
   
   #about {
-    background-color: #333;
     color: #fff;
   }
   
   #demo {
-    background-color: #1a1a1a;
     color: #fff;
   }
   
@@ -50,7 +62,6 @@ body {
   }
   
   #contact {
-    background-color: #333;
     color: #fff;
   }
   
