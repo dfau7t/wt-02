@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <link rel="stylesheet" href="flow_style.css">
+    <title>Flow Sim</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="flow_about.html">About</a></li>
+            <li><a href="flow_work.html">Work</a></li>
+        </ul>
+    </header>
+    <section>
+        <a href="#sec" id="btn">Explore</a>
+        <h2 id="text">"Controlled" Fun</h2>
+    </section>
+
+    <div class="sec" id="sec">
+        <h2>What is Audio Visualization</h2>
+        <p>Music visualization or music visualisation, a feature found in electronic music visualizers 
+            and media player software, generates animated imagery based on a piece of music. 
+            The imagery is usually generated and rendered in real time and in a way synchronized with 
+            the music as it is played. <br>
+
+            Visualization techniques range from simple ones (e.g., a simulation of an oscilloscope display) 
+            to elaborate ones, which often include a number of composited effects. The changes in the 
+            music's loudness and frequency spectrum are among the properties used as input to the 
+            visualization. <br>
+            
+            Effective music visualization aims to attain a high degree of visual correlation between a 
+            musical track's spectral characteristics such as frequency and amplitude and the objects or 
+            components of the visual image being rendered and displayed. <br>
+        </p>
+    </div>
+
+
+    <script src="flow_script.js"></script>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+        let head = document.querySelector('header')
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY
+            header.style.top = value * 0.5 + 'px'
+        })
+
+    </script>
+</body>
+</html>
