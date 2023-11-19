@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight)
+  createCanvas(windowWidth, 1000)
   angleMode(DEGREES)
   amp = new p5.Amplitude()
   song.play()

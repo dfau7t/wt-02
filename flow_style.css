@@ -103,7 +103,7 @@ script {
     background: #fff;
     color: #1e1e1e;
     font-size: 1.5em;
-    margin-top: 60%;
+    margin-top: 70%;
 }
 
 .sec {
@@ -126,6 +126,7 @@ script {
 
 #embed {
     margin-top: 100px;
+    padding-left: 15%;
 }
 
 #embed h2 {
